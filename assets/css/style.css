@@ -1,0 +1,225 @@
+*{
+    /* reset css */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* phông chữ cả trang web */
+    font-family:"Montserrat", Sans-serif;
+}
+
+#main{
+
+}
+
+#header{
+    /* màu nền phần header */
+    background-color: #FFFFFF;
+    /* chiều cao của header */
+    height: 100px;
+    /* khi cuộn phần header ko bị cuộn*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* nổi phần header lên trên khi cuộn ko bị ẩn */
+    z-index: 1;
+} 
+
+#header #header-name{
+    padding-left: 300px;
+    max-width: 50%;
+}
+
+#header #header-name li{ 
+    float:left;
+    /* căn giữua */
+    line-height: 100px;
+}
+
+#header #header-navigation{
+    float: right;
+    padding-right: 350px;
+    max-width: 50%;
+}
+
+#header #header-navigation li{
+    line-height: 100px;
+    padding-left: 20px;
+}
+
+#header #header-name li a,
+#header #header-navigation a
+{
+    /* bỏ gạch chân thẻ a */
+    text-decoration: none;
+    /* đổi màu chữ thẻ a */
+    color:#000;
+    /* cỡ chữ thẻ a */
+    font-size: 15px;
+    /* viết hoa  */
+    text-transform: uppercase;
+}
+
+#header #header-navigation li:hover a{
+    /* dí chuột đổi màu chữ thẻ a */
+    color: #707070;
+}
+
+#header #header-name li a{
+    /* cỡ chữ the present writer */
+    font-size: 26px;
+    /* in đậm */
+    font-weight: bold;
+}
+#header #header-name li:hover {
+    /* di chuột thì tăng kích thước */
+    transform: scale(1.1);
+}
+
+#header .header-sub li{
+    display: inline-block;
+    
+}
+
+#slider {
+    margin-top: 100px;
+    background-color: #dbd6d6;
+    padding-top: 39.555% ;
+    position: relative;
+}
+
+#slider img{
+    position: absolute;
+    /* căn ảnh giwuxa nền slider */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+#content{
+    padding-bottom: 100px;
+}
+
+#content .content-icon-a{
+    width: 100%;
+    display: inline-block;
+}
+
+#content .logo{
+    float: right;
+    padding-right:200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#content .content-icon-a li{
+    display: inline;
+}
+
+#content .content-icon-a a{
+    text-decoration: none;
+    color: #000;
+}
+
+#content .content-icon-a i{
+    padding-left: 20px;
+    font-size: 20px;
+    padding: 8px;
+    
+}
+
+#content .content-icon-a li:hover i{
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 50% 50% 50% 50%;
+}
+
+#content .content-image{
+    float: left;
+    padding-left: 80px;
+}
+
+#content .content-image img{
+    width: 350px;
+    padding:0 20px;
+    margin-left: 60px;
+    
+}
+
+#content .content-text{
+    padding: 10px;
+    margin: 10px 190px;
+}
+
+#content .content-text h2{
+    text-align: center;
+}
+
+#content .content-text p{
+    margin: 16px 0;
+}
+
+#content .content-text a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+#footer{
+    background-color:#dbd6d6;
+}
+
+.footer-header{
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 500;
+}
+
+.body-footer{
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.body-footer .item{
+    float: left;
+    width: 33.333%;
+    padding-left: 150px;
+    padding-bottom: 10px;
+}
+
+.body-footer .img-infor p{
+    padding: 20px 75px;
+    font-weight: 650;
+}
+
+.body-footer ul{
+    padding-top: 30px;
+}
+
+.body-footer li{
+    list-style: none;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.body-footer li a{
+    text-decoration: none;
+    color:#000;
+}
+
+.body-footer .img-infor{
+
+}
+
+.body-footer .img-infor img{
+    width: 250px;
+    border-radius: 50%;
+}
+
+
+
